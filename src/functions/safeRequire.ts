@@ -3,7 +3,7 @@ function safeRequire<TReturn>(packageName: string, defaultReturn: any = null): T
 
     try {
         packageLoader = require(packageName);
-    } catch (loadError) {
+    } catch (loadError: any) {
         if (loadError.code === 'MODULE_NOT_FOUND') {
             return typeof defaultReturn === 'function'
                 ? defaultReturn(loadError)
