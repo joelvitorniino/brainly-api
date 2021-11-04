@@ -1,5 +1,5 @@
 {
-  "name": "brainly-api",
+  "name": "brainly-fork-api",
   "version": "0.0.45",
   "description": "Unofficial brainly.com API",
   "main": "build/index.js",
@@ -37,27 +37,27 @@
   "bin": {
     "brainly-api": "./bin/brainly-api.js"
   },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/jest": "^27.0.2",
+    "@types/rimraf": "^3.0.2",
+    "lerna": "^4.0.0"
+  },
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/cryptr": "^4.0.1",
-    "@types/node": "^15.6.1",
-    "@types/npm": "^2.0.31",
-    "@types/puppeteer": "^5.4.3",
-    "axios": "^0.21.1",
-    "chalk": "^4.1.0",
-    "cli-highlight": "^2.1.10",
-    "commander": "^7.0.0",
+    "@types/node": "^16.11.6",
+    "@types/npm": "^7.19.0",
+    "@types/puppeteer": "^5.4.4",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "cli-highlight": "^2.1.11",
+    "commander": "^8.3.0",
     "cross-env": "^7.0.3",
     "cryptr": "^6.0.2",
-    "jest": "^26.6.3",
-    "npm": "^7.5.2",
+    "jest": "^27.3.1",
+    "npm": "^8.1.2",
     "rimraf": "^3.0.2",
-    "typescript": "^4.1.3"
-  },
-  "devDependencies": {
-    "@types/chalk": "^2.2.0",
-    "@types/jest": "^26.0.20",
-    "@types/rimraf": "^3.0.0",
-    "lerna": "^4.0.0"
+    "typescript": "^4.4.4"
   }
 }
